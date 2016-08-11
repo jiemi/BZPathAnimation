@@ -13,6 +13,7 @@
 		3F0AD1951D4DB4AA00F99D52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0AD1931D4DB4AA00F99D52 /* Main.storyboard */; };
 		3F0AD1971D4DB4AA00F99D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0AD1961D4DB4AA00F99D52 /* Assets.xcassets */; };
 		3F0AD19A1D4DB4AA00F99D52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0AD1981D4DB4AA00F99D52 /* LaunchScreen.storyboard */; };
+		3F0AD1A31D4DB4DC00F99D52 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AD1A21D4DB4DC00F99D52 /* AnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3F0AD1961D4DB4AA00F99D52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0AD1991D4DB4AA00F99D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F0AD19B1D4DB4AA00F99D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0AD1A11D4DB4DC00F99D52 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		3F0AD1A21D4DB4DC00F99D52 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				3F0AD1981D4DB4AA00F99D52 /* LaunchScreen.storyboard */,
 				3F0AD19B1D4DB4AA00F99D52 /* Info.plist */,
 				3F0AD18A1D4DB4AA00F99D52 /* Supporting Files */,
+				3F0AD1A11D4DB4DC00F99D52 /* AnimationView.h */,
+				3F0AD1A21D4DB4DC00F99D52 /* AnimationView.m */,
 			);
 			path = UBZPathAnimation1;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F0AD1921D4DB4AA00F99D52 /* ViewController.m in Sources */,
+				3F0AD1A31D4DB4DC00F99D52 /* AnimationView.m in Sources */,
 				3F0AD18F1D4DB4AA00F99D52 /* AppDelegate.m in Sources */,
 				3F0AD18C1D4DB4AA00F99D52 /* main.m in Sources */,
 			);
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UBZPathAnimation1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tesy.UBZPathAnimation1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UBZPathAnimation1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tesy.UBZPathAnimation1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
